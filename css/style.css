@@ -1931,7 +1931,7 @@ body {
     /* Yellow Navbar - Ensure it stays fixed */
     .navbar {
         position: fixed;
-        top: 108px;
+        top: 106px;
     }
     
     /* Hero Section */
@@ -1976,3 +1976,4 @@ body {
     }
 
 }
+
