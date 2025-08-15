@@ -1,0 +1,73 @@
+/* Drivers Section */
+        .drivers-section {
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .drivers-section h2 {
+            font-size: 36px;
+            color: #222;
+            margin-bottom: 60px;
+            position: relative;
+        }
+        
+        .drivers-section h2::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 3px;
+            background: #ffb400;
+            margin: 15px auto 0;
+        }
+        
+        .drivers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .driver-card {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .driver-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .driver-image {
+            height: 250px;
+            overflow: hidden;
+        }
+        
+        .driver-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .driver-card:hover .driver-image img {
+            transform: scale(1.1);
+        }
+        
+        .driver-info {
+            padding: 20px;
+        }
+        
+        .driver-info h3 {
+            margin: 0 0 5px;
+            font-size: 20px;
+            color: #222;
+        }
+        
+        .driver-info p {
+            margin: 0;
+            color: #ffb400;
+            font-weight: 600;
+            font-size: 16px;
+        }

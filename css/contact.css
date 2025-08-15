@@ -1,0 +1,149 @@
+.contact-top {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    flex: 1 1 calc(25% - 20px); /* 4 cards in a row with spacing */
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.contact-card h4 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.contact-card p {
+    color: #666;
+    font-size: 14px;
+}
+
+.contact-card .icon {
+    background: #ffb400;
+    color: #fff;
+    font-size: 26px; /* slightly larger text */
+    display: inline-flex; /* ensures centering */
+    justify-content: center;
+    align-items: center;
+    width: 70px; /* increased circle size */
+    height: 70px; /* increased circle size */
+    border-radius: 50%;
+}
+
+
+/* Contact form section */
+.contact-section {
+  padding: 75px 0;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px; /* space between image & form */
+  flex-wrap: wrap; /* allows stacking on mobile */
+}
+
+/* Decagon image container */
+.contact-image {
+  flex: 1;
+  max-width: 440px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.decagon-ring {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  background: #ffb400;
+  clip-path: polygon(
+    50% 0%,
+    79.39% 10.61%,
+    97.55% 34.55%,
+    97.55% 65.45%,
+    79.39% 89.39%,
+    50% 100%,
+    20.61% 89.39%,
+    2.45% 65.45%,
+    2.45% 34.55%,
+    20.61% 10.61%
+  );
+  display: grid;
+  place-items: center;
+}
+
+.decagon-ring img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: inherit;
+}
+
+/* Contact form styling */
+.contact-form {
+  flex: 1;
+  max-width: 500px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact-form button {
+  background: #ffb400;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #e09a00;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .contact-image {
+    max-width: 440px;
+  }
+}
+
+/* Map Section */
+.map-container {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    border-top: 4px solid #ffb400; /* optional: match your theme color */
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
