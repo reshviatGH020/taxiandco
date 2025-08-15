@@ -109,6 +109,7 @@
 }
 
 .contact-form button {
+  font-family: 'Work Sans', sans-serif;
   background: #ffb400;
   color: #fff;
   padding: 12px 25px;
@@ -147,3 +148,4 @@
     height: 100%;
     border: none;
 }
+
