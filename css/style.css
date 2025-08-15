@@ -22,7 +22,7 @@ h1, h2, h3, h4, span, label, input {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-a, p, li, td, select, strong {
+a, p, li, td, select, strong, textarea {
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -1974,4 +1974,5 @@ body {
         text-align: center;
         gap: 10px;
     }
+
 }
