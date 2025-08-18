@@ -8,7 +8,7 @@
 
 .contact-card {
     flex: 1 1 calc(25% - 20px); /* 4 cards in a row with spacing */
-    background: #fff;
+    background: #dee0de;
     border-radius: 10px;
     text-align: center;
     padding: 20px;
@@ -148,4 +148,5 @@
     height: 100%;
     border: none;
 }
+
 
