@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi & Co - Book Your Taxi</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="tco.png">
+    <!-- Google Font Set for Heading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <!-- Google Font Set 1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!-- Google Font 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <!-- Top Header Bar -->
+    <header class="top-header">
+        <div class="container">
+            <div class="header-left">
+                <span><i class="fas fa-envelope"></i> info@taxiandco.net</span>
+                <span><i class="fas fa-phone"></i> +94 21 229 8765</span>
+                <span><i class="fas fa-clock"></i> Mon - Sun : 24/7</span>
+            </div>
+            <div class="header-right">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">TAXI <span>& CO</span></a>
+            <button class="mobile-menu-btn" id="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="book.html" class="nav-btn">BOOK NOW</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Booking Card -->
+    <section class="hero" id="hero-sector">
+        <div class="container">
+            <div class="hero-content">
+                <h1>WELCOME TO TAXI & CO!</h1>
+                <h2>Book a TAXI for your ride.....</h2>
+                <p>There are many variations of passages available the majority have unlimited alterations in some form generators on the Internet level to repeat predefined chunks injected between randomised media (see, even slightly belowside).</p>
+                
+                <div class="about-more">
+                    <a href="#about" class="learn-more">Learn more</a>
+                </div>
+            </div>
+
+            <!-- Booking Form Card -->
+            <div class="booking-card">
+                <h3>Book Your Ride</h3>
+                <form class="booking-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Pick Up Location</label>
+                            <input type="text" placeholder="Type Location">
+                        </div>
+                        <div class="form-group">
+                            <label>Drop Off Location</label>
+                            <input type="text" placeholder="Type Location">
+                        </div>
+                        <div class="form-group">
+                            <label>Passengers</label>
+                            <input type="number" placeholder="Passengers">
+                        </div>
+                        <div class="form-group">
+                            <label>Cab Type</label>
+                            <select>
+                                <option>Choose Cab</option>
+                                <option>Standard</option>
+                                <option>Premium</option>
+                                <option>Luxury</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Pick Up Date</label>
+                            <input type="date" placeholder="MM/DD/YYYY">
+                        </div>
+                        <div class="form-group">
+                            <label>Pick Up Time</label>
+                            <input type="time" value="09:00">
+                        </div>
+                        <div class="form-group">
+                            <label>Driver Age</label>
+                            <select>
+                                <option>Choose Age</option>
+                                <option>25+</option>
+                                <option>30+</option>
+                                <option>35+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Cab Model</label>
+                            <select>
+                                <option>Choose Model</option>
+                                <option>Sedan</option>
+                                <option>SUV</option>
+                                <option>Van</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="book-btn">BOOK TAXI</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>ABOUT US</h2>
+                <h3>We Provide Trusted Cab Service In The World</h3>
+                <p>We are a leading cab service dedicated to providing you with safe, reliable, and comfortable journeys. Our commitment to excellence ensures every ride meets your expectations, whether you're traveling for business or pleasure.</p>
+                <ul>
+                  <li>We are dedicated to providing you with timely and reliable service.</li>
+                  <li>Our drivers are experienced, professional, and committed to your safety.</li>
+                  <li>We offer a variety of vehicles to meet your specific travel needs.</li>
+                </ul>
+                <a href="#" class="discover-more">DISCOVER MORE →</a>
+            </div>
+            <div class="about-image">
+                <img src="img/about.jpg" alt="Vehicle Taxi HD Image by Alpha Coders">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>OUR SERVICES</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                        <img src="img/services/service-1.png" alt="Image by Google Gemini">
+                    </a>
+                    <h3>Online Booking</h3>
+                    <p>Reliable and easy booking for all your transportation needs.</p>
+                </div>
+                <div class="service-card">
+                        <img src="img/services/service-2.png" alt="Image by Google Gemini">
+                    </a>
+                    <h3>City Transport</h3>
+                    <p>Hassle-free rides for navigating the city.</p>
+                </div>
+                <div class="service-card">
+                        <img src="img/services/service-3.png" alt="Image by Google Gemini">
+                    </a>
+                    <h3>Airport Transport</h3>
+                    <p>Spacious vehicles with flight tracking for a stress-free travel experience.</p>
+                </div>
+                <div class="service-card">
+                        <img src="img/services/service-4.png" alt="Image by Google Gemini">
+                    </a>
+                    <h3>Business Transport</h3>
+                    <p>Professional and punctual service for corporate travel.</p>
+                </div>
+                <div class="service-card">
+                        <img src="img/services/service-5.png" alt="Image by Google Gemini">
+                    </a>
+                    <h3>Regular Transport</h3>
+                    <p>Comfortable and consistent rides for your daily commute.</p>
+                </div>
+                <div class="service-card">
+                        <img src="img/services/service-6.png" alt="Image by Google Gemini">
+                    </a>
+                    <h3>Tour Transport</h3>
+                    <p>Personalized and comfortable transportation for exploring new places.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Taxis Section -->
+    <section class="available-taxis" id="taxis">
+        <div class="container">
+            <h1>Let's Check Available Taxi</h1>
+            <h2>ALL TAXI</h2>
+            <ul class="taxi-types">
+                <li><strong>ALL TAXIS</strong></li>
+                <li><strong>TOWN TAXI</strong></li>
+                <li><strong>SUV TAXI</strong></li>
+                <li><strong>HYBRID TAXI</strong></li>
+            </ul>
+
+            <div class="taxi-grid">
+                <!-- Taxi Card 1 -->
+                <div class="taxi-card">
+                  <img src="img/packages/package-1.png" width="320px" height="320px">
+                    <h3>T&CO CAB1</h3>
+                    <p class="price">Rs.449 / km</p>
+                    <table class="taxi-specs">
+                        <tr>
+                            <td>Taxi Docs:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Passengers:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Luggage Carry:</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Air Condition:</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>GPS Navigation:</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Driver Choosing:</td>
+                            <td>Yes</td>
+                        </tr>
+                    </table>
+                    <a href="#hero-sector" class="book-taxi-btn">BOOK TAXI NOW →</a>
+                </div>
+
+                <!-- Taxi Card 2 -->
+                <div class="taxi-card">
+                  <img src="img/packages/package-2.png" width="320px" height="320px">
+                    <h3>T&CO CAB2</h3>
+                    <p class="price">Rs.699 / km</p>
+                    <table class="taxi-specs">
+                        <tr>
+                            <td>Taxi Docs:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Passengers:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Luggage Carry:</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Air Condition:</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>GPS Navigation:</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Driver Choosing:</td>
+                            <td>Yes</td>
+                        </tr>
+                    </table>
+                    <a href="#hero-sector" class="book-taxi-btn">BOOK TAXI NOW →</a>
+                </div>
+
+                <!-- Taxi Card 3 -->
+                <div class="taxi-card">
+                  <img src="img/packages/package-3.png" width="320px" height="320px">
+                    <h3>T&CO CAB3</h3>
+                    <p class="price">Rs.1099 / km</p>
+                    <table class="taxi-specs">
+                        <tr>
+                            <td>Taxi Docs:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Passengers:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Luggage Carry:</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Air Condition:</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>GPS Navigation:</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Driver Choosing:</td>
+                            <td>Yes</td>
+                        </tr>
+                    </table>
+                    <a href="#hero-sector" class="book-taxi-btn">BOOK TAXI NOW →</a>
+                </div>
+                <!-- Taxi Card 4 -->
+                <div class="taxi-card">
+                  <img src="img/packages/package-1.png" width="320px" height="320px">
+                    <h3>T&CO CAB4</h3>
+                    <p class="price">Rs.649 / km</p>
+                    <table class="taxi-specs">
+                        <tr>
+                            <td>Taxi Docs:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Passengers:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Luggage Carry:</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Air Condition:</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>GPS Navigation:</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Driver Choosing:</td>
+                            <td>Yes</td>
+                        </tr>
+                    </table>
+                    <a href="#hero-sector" class="book-taxi-btn">BOOK TAXI NOW →</a>
+                </div>
+
+                <!-- Taxi Card 5 -->
+                <div class="taxi-card">
+                  <img src="img/packages/package-2.png" width="320px" height="320px">
+                    <h3>T&CO CAB5</h3>
+                    <p class="price">Rs.849 / km</p>
+                    <table class="taxi-specs">
+                        <tr>
+                            <td>Taxi Docs:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Passengers:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Luggage Carry:</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Air Condition:</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>GPS Navigation:</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Driver Choosing:</td>
+                            <td>Yes</td>
+                        </tr>
+                    </table>
+                    <a href="#hero-sector" class="book-taxi-btn">BOOK TAXI NOW →</a>
+                </div>
+
+                <!-- Taxi Card 6 -->
+                <div class="taxi-card">
+                  <img src="img/packages/package-3.png" width="320px" height="320px">
+                    <h3>T&CO CAB6</h3>
+                    <p class="price">Rs.1399 / km</p>
+                    <table class="taxi-specs">
+                        <tr>
+                            <td>Taxi Docs:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Passengers:</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Luggage Carry:</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Air Condition:</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>GPS Navigation:</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Driver Choosing:</td>
+                            <td>Yes</td>
+                        </tr>
+                    </table>
+                    <a href="#hero-sector" class="book-taxi-btn">BOOK TAXI NOW →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Card -->
+    <div class="stats-card">
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-number" data-target="500">0</div>
+                <div class="stat-label">Happy Clients</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="900">0</div>
+                <div class="stat-label">Miles Driven</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="700">0</div>
+                <div class="stat-label">Five Star Ratings</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="1800">0</div>
+                <div class="stat-label">Successful Rides</div>
+            </div>
+        </div>
+    </div>
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h1>Our Awesome Features</h1>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h2>1st Visit</h2>
+                    <h3>Safety Guarantee</h3>
+                    <p>The next year you worked with a charity team at Annual General Meeting from the Hospital in New Zealand and to our customers on site.</p>
+                </div>
+                <div class="feature-card">
+                    <h2>2nd Visit</h2>
+                    <h3>Fast Pickup</h3>
+                    <p>Three years ago, a vision of society has evolved into the lives of people who are experiencing their own emotional work.</p>
+                </div>
+                <div class="feature-card">
+                    <h2>3rd Visit</h2>
+                    <h3>Affordable Rate</h3>
+                    <p>Fear rate was greater of capacity than a direct standard in terms of acceptable lower reimbursement levels.</p>
+                </div>
+                <div class="feature-card">
+                    <h2>4th Visit</h2>
+                    <h3>24/7 Support</h3>
+                    <p>Three years ago, a vision of society has evolved into the lives of people who are experiencing their own emotional work.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Taxi Rates Section -->
+    <section class="taxi-rates">
+        <div class="container">
+            <h1>TAXI RATE</h1>
+            <h2>Our Taxi Rate For You</h2>
+            
+            <div class="rate-packages">
+                <!-- Basic Package -->
+                <div class="rate-card">
+                  <img src="img/packages/package-1.png" width="290px" height="290px">
+                    <h3>BASIC PACKAGE</h3>
+                    <p class="payment-type">One Time Payment</p>
+                    <ul class="rate-features">
+                        <li><strong>Base Charge:</strong> Rs.1989</li>
+                        <li><strong>Distance Allowance:</strong> 500m</li>
+                        <li><strong>Up To 5km:</strong> Rs.259/km</li>
+                        <li><strong>Booking Fee:</strong> Rs.3949</li>
+                        <li><strong>Max Passengers:</strong> 4</li>
+                    </ul>
+                    <button class="choose-plan-btn">CHOOSE PLAN →</button>
+                </div>
+                
+                <!-- Standard Package -->
+                <div class="rate-card highlighted">
+                  <img src="img/packages/package-2.png" width="290px" height="290px">
+                    <div class="popular-badge">POPULAR</div>
+                    <h3>STANDARD PACKAGE</h3>
+                    <p class="payment-type">One Time Payment</p>
+                    <ul class="rate-features">
+                        <li><strong>Base Charge:</strong> Rs.3349</li>
+                        <li><strong>Distance Allowance:</strong> 1000m</li>
+                        <li><strong>Up To 10km:</strong> Rs.519/km</li>
+                        <li><strong>Booking Fee:</strong> Rs.7449</li>
+                        <li><strong>Max Passengers:</strong> 4</li>
+                    </ul>
+                    <button class="choose-plan-btn">CHOOSE PLAN →</button>
+                </div>
+                
+                <!-- Premium Package -->
+                <div class="rate-card">
+                  <img src="img/packages/package-3.png" width="290px" height="290px">
+                    <h3>PREMIUM PACKAGE</h3>
+                    <p class="payment-type">One Time Payment</p>
+                    <ul class="rate-features">
+                        <li><strong>Base Charge:</strong> Rs.7999</li>
+                        <li><strong>Distance Allowance:</strong> 1500m</li>
+                        <li><strong>Up To 15km:</strong> Rs.859/km</li>
+                        <li><strong>Booking Fee:</strong> Rs.11,949</li>
+                        <li><strong>Max Passengers:</strong> 6</li>
+                    </ul>
+                    <button class="choose-plan-btn">CHOOSE PLAN →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-section">
+      <div class="container">
+        <div class="row-layout">
+          <!-- Left Side: Text -->
+          <div class="text-box">
+            <span class="small-title">WHY CHOOSE US</span>
+            <h1 class="main-title">
+              We Are Dedicated <span>To Provide</span> Quality Service
+            </h1>
+            <p class="description">
+              There are many variations of passages available but the majority have suffered alteration 
+              in form injected humour words which don’t look even slightly believable.
+            </p>
+          </div>
+
+          <!-- Right Side: Taxi Image + Benefits -->
+          <div class="right-box">
+            <div class="taxi-image">
+              <img src="img/why.jpg" alt="Taxi">
+            </div>
+            <div class="benefits">
+              <div class="benefit-card">
+                <div class="icon"><i class="fas fa-taxi"></i></div>
+                <div class="content">
+                  <h3>Best Quality Taxi</h3>
+                  <p>There are many variations of passages available but the majority have suffered alteration in form injected humour words which don’t look even slightly believable.</p>
+                </div>
+              </div>
+              <div class="benefit-card">
+                <div class="icon"><i class="fas fa-user-tie"></i></div>
+                <div class="content">
+                  <h3>Expert Drivers</h3>
+                  <p>There are many variations of passages available but the majority have suffered alteration in form injected humour words which don’t look even slightly believable.</p>
+                </div>
+              </div>
+              <div class="benefit-card">
+                <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="content">
+                  <h3>Many Locations</h3>
+                  <p>There are many variations of passages available but the majority have suffered alteration in form injected humour words which don’t look even slightly believable.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="ag3-faq-section">
+      <div class="ag3-container">
+        <h1 class="ag3-main-title">FAQ</h1>
+        <h2 class="ag3-subheading">General Frequently Asked Questions</h2>
+        
+        <p class="ag3-intro-text">
+          How to review questions of potential dimensions available, but is required to be full of information 
+          on each item by special interview or residential cards which don't look new.
+        </p>
+        
+        <div class="ag3-questions-container">
+          <!-- Question 1 -->
+          <div class="ag3-question-block">
+            <button class="ag3-question-btn">
+              <h3 class="ag3-question-title">How Long Does A Booking Take ?</h3>
+              <span class="ag3-toggle-icon">+</span>
+            </button>
+            <div class="ag3-answer-content">
+              <p>
+                We discover only different objectives and skills over who are in hospital and doctors 
+                and for the course of absence of the exames, so thanks to these, since all of these 
+                issues were true before their work at the end of the initial pipeline.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Question 2 -->
+          <div class="ag3-question-block">
+            <button class="ag3-question-btn">
+              <h3 class="ag3-question-title">How Can I Become A Member ?</h3>
+              <span class="ag3-toggle-icon">+</span>
+            </button>
+            <div class="ag3-answer-content">
+              <p>Answer not provided in the template</p>
+            </div>
+          </div>
+          
+          <!-- Question 3 -->
+          <div class="ag3-question-block">
+            <button class="ag3-question-btn">
+              <h3 class="ag3-question-title">What Payment Gateway You Support ?</h3>
+              <span class="ag3-toggle-icon">+</span>
+            </button>
+            <div class="ag3-answer-content">
+              <p>Answer not provided in the template</p>
+            </div>
+          </div>
+          
+          <!-- Question 4 -->
+          <div class="ag3-question-block">
+            <button class="ag3-question-btn">
+              <h3 class="ag3-question-title">How Can I Cancel My Request ?</h3>
+              <span class="ag3-toggle-icon">+</span>
+            </button>
+            <div class="ag3-answer-content">
+              <p>Answer not provided in the template</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modern Testimonial Marquee Section -->
+    <section class="testimonials">
+      <div class="overlay"></div>
+      <div class="container">
+        <span class="section-subtitle">CLIENT TESTIMONIALS</span>
+        <h2 class="section-title">What Our Clients Say</h2>
+        
+        <div class="marquee-container">
+          <div class="marquee-track">
+            <!-- Original Testimonial Cards -->
+            <div class="testimonial-card">
+              <div class="client-info">
+                <img src="img/testimonials/testimonial-1.jpg" alt="Gordo Novak" class="client-avatar">
+                <div class="client-meta">
+                  <h3 class="client-name">Gordo Novak</h3>
+                  <span class="client-role">Marketing Director</span>
+                </div>
+              </div>
+              <p class="testimonial-text">"The team delivered exceptional results that exceeded our expectations. Their attention to detail and creative approach solved our complex challenges."</p>
+              <div class="rating">
+                <div class="stars">★★★★★</div>
+                <span class="date">June 15, 2023</span>
+              </div>
+            </div>
+            
+            <div class="testimonial-card">
+              <div class="client-info">
+                <img src="img/testimonials/testimonial-2.jpg" alt="Reid Butt" class="client-avatar">
+                <div class="client-meta">
+                  <h3 class="client-name">Reid Butt</h3>
+                  <span class="client-role">CEO, TechStart</span>
+                </div>
+              </div>
+              <p class="testimonial-text">"Working with this company transformed our digital presence. Their strategic insights and technical expertise were invaluable to our growth."</p>
+              <div class="rating">
+                <div class="stars">★★★★★</div>
+                <span class="date">August 2, 2023</span>
+              </div>
+            </div>
+            
+            <div class="testimonial-card">
+              <div class="client-info">
+                <img src="img/testimonials/testimonial-3.jpg" alt="Parker Jime" class="client-avatar">
+                <div class="client-meta">
+                  <h3 class="client-name">Parker Jime</h3>
+                  <span class="client-role">Product Manager</span>
+                </div>
+              </div>
+              <p class="testimonial-text">"Exceptional service from start to finish. They understood our vision and executed flawlessly, delivering ahead of schedule."</p>
+              <div class="rating">
+                <div class="stars">★★★★☆</div>
+                <span class="date">September 10, 2023</span>
+              </div>
+            </div>
+            
+            <!-- Duplicate Cards for Perfect Looping -->
+            <div class="testimonial-card">
+              <div class="client-info">
+                <img src="img/testimonials/testimonial-1.jpg" alt="Gordo Novak" class="client-avatar">
+                <div class="client-meta">
+                  <h3 class="client-name">Gordo Novak</h3>
+                  <span class="client-role">Marketing Director</span>
+                </div>
+              </div>
+              <p class="testimonial-text">"The team delivered exceptional results that exceeded our expectations. Their attention to detail and creative approach solved our complex challenges."</p>
+              <div class="rating">
+                <div class="stars">★★★★★</div>
+                <span class="date">June 15, 2023</span>
+              </div>
+            </div>
+            
+            <div class="testimonial-card">
+              <div class="client-info">
+                <img src="img/testimonials/testimonial-2.jpg" alt="Reid Butt" class="client-avatar">
+                <div class="client-meta">
+                  <h3 class="client-name">Reid Butt</h3>
+                  <span class="client-role">CEO, TechStart</span>
+                </div>
+              </div>
+              <p class="testimonial-text">"Working with this company transformed our digital presence. Their strategic insights and technical expertise were invaluable to our growth."</p>
+              <div class="rating">
+                <div class="stars">★★★★★</div>
+                <span class="date">August 2, 2023</span>
+              </div>
+            </div>
+            
+            <div class="testimonial-card">
+              <div class="client-info">
+                <img src="img/testimonials/testimonial-3.jpg" alt="Parker Jime" class="client-avatar">
+                <div class="client-meta">
+                  <h3 class="client-name">Parker Jime</h3>
+                  <span class="client-role">Product Manager</span>
+                </div>
+              </div>
+              <p class="testimonial-text">"Exceptional service from start to finish. They understood our vision and executed flawlessly, delivering ahead of schedule."</p>
+              <div class="rating">
+                <div class="stars">★★★★☆</div>
+                <span class="date">September 10, 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Booking Section -->
+    <section class="booking">
+      <div class="checker-top"></div>
+      <div class="container">
+        <div class="booking-content">
+          <div class="text">
+            <h2>Book Your Cab It's Simple And Affordable</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout point of using is that it has normal distribution of letters.</p>
+          </div>
+          <div class="contact">
+            <i class="fas fa-headphones"></i>
+            <span class="phone">+94 77 123 4567</span>
+            <a href="#" class="btn">BOOK YOUR CAB</a>
+          </div>
+        </div>
+      </div>
+      <div class="checker-bottom"></div>
+    </section>
+
+    <!-- App Download Section -->
+    <section class="app-download">
+      <div class="container">
+        <div class="app-content">
+          <div class="text">
+            <h4>GET OUR APP</h4>
+            <h1>Download <span>Our Taxica</span> App For Free</h1>
+            <p>There are many variations of passages available but the majority have suffered in some form going to use a passage by injected humour.</p>
+            <div class="app-buttons">
+              <a href="#" class="btn google"><i class="fa-brands fa-google-play"></i>&nbsp;Get It On Google Play</a>
+              <a href="#" class="btn apple"><i class="fa-brands fa-apple"></i>&nbsp;Get It On App Store</a>
+            </div>
+          </div>
+          <div class="images">
+            <img src="img/download.png" alt="App Screenshot 1" width="400px" height="350px">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <!--<div class="footer-top">
+        </div>-->
+        <div class="footer-content">
+          <div class="footer-brand">
+            <a href="#" class="logo"><span>TAXI & CO</span></a>
+            <p>The use was my condition of passenger available but the household has no further distribution to come from the market between retail and Australia.</p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="service.html">Our Services</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="footer-support">
+            <h4>Contact us</h4>
+            <ul>
+              <li>Address : A9 Road, Jaffna, SL</li>
+              <li>Telephone : +94 77 123 4567</li>
+              <li>E-mail : info@taxiandco.lk</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Copyright © 2025 Taxi & Co. Developed at WEBbuilders.lk</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- The circular button -->
+    <button class="circle-btn" id="scrollTopBtn"><i class="fa-solid fa-angle-up" style="color: #570000;"></i></button>
+
+<!-- Sample JavaScript Files -->
+<script src="js/marquee.js"></script>
+<script src="js/faq-interaction.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/scroller.js"></script>
+<script src="js/counter.js"></script>
+
+</body>
+</html>
